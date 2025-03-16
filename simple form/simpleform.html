@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="simpleform.css">
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Log in with</h1>
+      <div class="login-top">
+        <a href="https://www.google.co.in/"
+          ><img
+            width="24 "
+            height="24"
+            src="https://img.icons8.com/color/48/google-logo.png"
+            alt="google-logo"
+          />Google</a
+        >
+        <a href="https://www.apple.com/in/store?cid=aos-IN-kwgo-brand"
+          ><img
+            width="24"
+            height="24"
+            src="https://img.icons8.com/ios-glyphs/30/mac-os.png"
+            alt="mac-os"
+          />
+          Apple</a
+        >
+      </div>
+      <span class="or">or</span>
+      <div class="form">
+        <form action="">
+          <div class="">
+            <label for="email"> Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter email address"
+            />
+          </div>
+          <div>
+            <div class="password-label">
+              <label for="password">Password</label>
+              <a href="">Forgot Password</a>
+            </div>
+            <div class="password-area">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter your password"
+              />
+              <i class="fa-regular fa-eye-slash"></i>
+            </div>
+          </div>
+          <button>LOG IN</button>
+        </form>
+        <div class="login-bottom">
+          <p>Don't have an account?</p>
+          <a href="">Sign up</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
